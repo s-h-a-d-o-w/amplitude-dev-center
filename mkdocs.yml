@@ -23,7 +23,7 @@ theme:
   # Static files
   static_templates:
     - 404.html
-    
+
   # Don't include MkDocs' JavaScript
   include_search_page: false
   search_index_only: true
@@ -135,7 +135,7 @@ extra:
 
 # Navigation
 nav:
-- Analytics: 
+- Analytics:
   - analytics/index.md
   - Overview: analytics/index.md
   - What is Amplitude?: analytics/what-is-amplitude.md
@@ -151,6 +151,7 @@ nav:
     - Group Identify: analytics/apis/group-identify-api.md
     - HTTP V2: analytics/apis/http-v2-api.md
     - Identify: analytics/apis/identify-api.md
+    - Lookup Tables: analytics/apis/lookup-tables-api.md
     - Releases: analytics/apis/releases-api.md
     - SCIM: analytics/apis/scim-api.md
     - Taxonomy: analytics/apis/taxonomy-api.md
@@ -274,7 +275,7 @@ nav:
       - Tribe: data/sources/tribe.md
       - Userflow: data/sources/userflow.md
 
-  - Destinations: 
+  - Destinations:
     - Overview: data/destinations.md
     - Warehouse:
       - Amazon S3: data/destinations/amazon-s3.md
@@ -308,7 +309,7 @@ nav:
   - all-resources.md
 
 # Files Intentionally left out of nav:
-# getting-started.md 
+# getting-started.md
   #- Data Docs (Deprecated): These are excluded on purpose please don't add them to nav
       #- data/deprecated-sdks/browser.md
       #- data/deprecated-sdks/nodejs.md
